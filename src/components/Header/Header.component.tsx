@@ -4,11 +4,11 @@ import Section from './components/Section.component';
 
 const Header: FC = () => {
   return (
-    <div className='h-10 flex items-center w-100'>
+    <header className='h-11 flex items-center w-100 sticky top-0'>
       <Section title='/hello' className='bg-[#4495D4]' />
       <Section title='/projects' className='bg-[#5B9E47]' />
       <Section title='/contact' className='bg-[#F1A800]' />
-    </div>
+    </header>
   );
 };
 
