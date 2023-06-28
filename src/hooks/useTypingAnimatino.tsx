@@ -21,7 +21,7 @@ export const useTypingAnimation = (
   const [phase, setPhase] = useState<TypePhase>(TypePhase.Typing);
   const [typedText, setTypedText] = useState<string>('');
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
-  console.log(phase);
+
   useEffect(() => {
     switch (phase) {
       case TypePhase.Typing: {
