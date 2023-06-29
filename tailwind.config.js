@@ -1,5 +1,3 @@
-import { fontFamily } from 'tailwindcss/defaultTheme';
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -18,6 +16,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['var(--font-poppins)'],
+      },
+      animation: {
+        'spin-slow': 'spin 25s linear infinite',
       },
     },
   },
