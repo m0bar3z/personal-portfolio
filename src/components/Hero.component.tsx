@@ -1,10 +1,10 @@
 'use client';
 
-import { type FC } from 'react';
+import { type FC, useState } from 'react';
 import cn from 'classnames';
+import HoverText from './HoverText.component';
 import { useTypingAnimation, TypePhase } from '@/hooks/useTypingAnimatino';
 import { HtmlIcon, Css3Icon, JsIcon, ReactIcon, NodeIcon } from './icons';
-import { useState } from 'react';
 
 const Hero: FC = () => {
   const [hoverText, setHoverText] = useState<string>('');
@@ -59,28 +59,7 @@ const Hero: FC = () => {
           />
         </div>
         <div className='flex justify-center'>
-          <div>
-            <div
-              className={cn(
-                'text-gray-100 text-center text-xl md:text-2xl transition-opacity duration-500 ease-linear ',
-                {
-                  ['opacity-0']: !hoverText,
-                }
-              )}
-            >
-              {hoverText}
-            </div>
-            <div
-              className={cn(
-                'text-gray-100 text-xl text-center md:text-2xl transition-opacity duration-500 ease-linear',
-                {
-                  ['opacity-0 -mt-8']: hoverText,
-                }
-              )}
-            >
-              I like UI, UX, web3, Blockchain, Security and Linux
-            </div>
-          </div>
+          <HoverText staticText='I like UI, UX, web3, Blockchain, Security and Linux' hoverText={hoverText} />
         </div>
       </div>
     </section>
