@@ -11,10 +11,10 @@ const Hero: FC = () => {
   const { typedText, phase, selectedText } = useTypingAnimation(['a React dev', 'Carl.']);
 
   return (
-    <section className='bg-[#4495D4] h-hero flex items-center justify-center'>
+    <section className='bg-[#4495D4] h-section flex items-center justify-center'>
       <div className='h-2/5 w-full m-32'>
         <h1
-          className={cn('mb-16 text-4xl text-gray-100 text-center md:text-7xl font-bold', {
+          className={cn('responsive-header mb-16 text-center', {
             ['end-cursor']: phase !== TypePhase.Deleting && phase !== TypePhase.Stopping,
             ['blinking']: phase === TypePhase.Pausing,
           })}

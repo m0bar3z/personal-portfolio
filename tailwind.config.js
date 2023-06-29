@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        hero: 'calc(100vh - 44px)',
+        section: 'calc(100vh - 44px)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
