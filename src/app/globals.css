@@ -21,6 +21,10 @@
     content: '|';
   }
 
+  .hero-icon {
+    @apply w-10 h-10 sm:h-14 md:w-14 hover:scale-125 mb-3 transition duration-500
+  } 
+
   .end-cursor.blinking:after {
     animation: blink 1s step-start infinite;
   }

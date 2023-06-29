@@ -27,16 +27,14 @@ const Hero: FC = () => {
           <HtmlIcon
             onMouseEnter={() => setHoverText('HTML5')}
             onMouseLeave={() => setHoverText('')}
-            width={56}
-            height={56}
-            className='hover:scale-125 mb-3 transition duration-500'
+            className='hero-icon'
           />
           <Css3Icon
             onMouseEnter={() => setHoverText('CSS3, SASS, CSS-in-JS, Material-UI, Tailwind')}
             onMouseLeave={() => setHoverText('')}
             width={56}
             height={56}
-            className='hover:scale-125 mb-3 transition duration-500'
+            className='hero-icon'
           />
           <ReactIcon
             onMouseEnter={() => setHoverText('React, Redux')}
@@ -50,21 +48,21 @@ const Hero: FC = () => {
             onMouseLeave={() => setHoverText('')}
             width={56}
             height={56}
-            className='hover:scale-125 mb-3 transition duration-500'
+            className='hero-icon'
           />
           <NodeIcon
             onMouseEnter={() => setHoverText('NodeJS, ExpressJS')}
             onMouseLeave={() => setHoverText('')}
             width={56}
             height={56}
-            className='hover:scale-125 mb-3 transition duration-500'
+            className='hero-icon'
           />
         </div>
         <div className='flex justify-center'>
           <div>
             <div
               className={cn(
-                'text-gray-100  text-center text-xl md:text-2xl transition-opacity duration-500 ease-linear ',
+                'text-gray-100 text-center text-xl md:text-2xl transition-opacity duration-500 ease-linear ',
                 {
                   ['opacity-0']: !hoverText,
                 }
