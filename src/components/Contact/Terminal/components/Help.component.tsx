@@ -7,6 +7,11 @@ const Help: FC = () => {
       <span className='ml-2 font-bold'>email</span>
       <br />
       <span className='ml-4'>get my email address</span>
+      <br />
+      <br />
+      <span className='ml-2 font-bold'>copy [argument]</span>
+      <br />
+      <span className='ml-4'>copy argument to clipboard</span>
     </CommandContainer>
   );
 };
