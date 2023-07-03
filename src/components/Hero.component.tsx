@@ -2,9 +2,9 @@
 
 import { type FC, useState } from 'react';
 import cn from 'classnames';
-import HoverText from './HoverText.component';
+import HoverText from './ui/HoverText.component';
 import { useTypingAnimation, TypePhase } from '@/hooks/useTypingAnimatino';
-import { HtmlIcon, Css3Icon, JsIcon, ReactIcon, NodeIcon } from './icons';
+import { HtmlIcon, Css3Icon, JsIcon, ReactIcon, NodeIcon } from './ui/icons';
 
 const Hero: FC = () => {
   const [hoverText, setHoverText] = useState<string>('');

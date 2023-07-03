@@ -3,5 +3,6 @@ import HtmlIcon from './Html.icon';
 import JsIcon from './Js.icon';
 import ReactIcon from './React.icon';
 import NodeIcon from './Node.icon';
-
-export { Css3Icon, HtmlIcon, JsIcon, ReactIcon, NodeIcon };
+import NewTabIcon from './NewTab.icon';
+import GithubIcon from './Github.icon';
+export { Css3Icon, HtmlIcon, JsIcon, ReactIcon, NodeIcon, NewTabIcon, GithubIcon };
