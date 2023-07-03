@@ -6,7 +6,6 @@ type ButtonPropTypes = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 const Button: FC<ButtonPropTypes> = ({ className, variant = 'outlined', ...rest }) => {
-  console.log('rendered!');
   return (
     <button
       className={cn(

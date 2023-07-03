@@ -1,12 +1,14 @@
 import { type FC } from 'react';
 import Hero from '@/components/Hero.component';
-import Works from '@/components/SelectedWorks/SelectedWorks.component';
+import SelectedWorks from '@/components/SelectedWorks/SelectedWorks.component';
+import Contact from '@/components/Contact/Contact.component';
 
 const Home: FC = () => {
   return (
     <>
       <Hero />
-      <Works />
+      <SelectedWorks />
+      <Contact />
     </>
   );
 };

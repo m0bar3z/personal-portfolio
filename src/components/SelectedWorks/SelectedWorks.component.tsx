@@ -1,6 +1,6 @@
 'use client';
 
-import { type FC, memo, useState, useMemo } from 'react';
+import { type FC, memo } from 'react';
 import FristProject from './components/FristProject.component';
 import SecondProject from './components/SecondProject.component';
 
