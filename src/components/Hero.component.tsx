@@ -8,7 +8,7 @@ import { HtmlIcon, Css3Icon, JsIcon, ReactIcon, NodeIcon } from './ui/icons';
 
 const Hero: FC = () => {
   const [hoverText, setHoverText] = useState<string>('');
-  const { typedText, phase, selectedText } = useTypingAnimation(['a React dev', 'Carl.']);
+  const { typedText, phase, selectedText } = useTypingAnimation(['a Fullstack dev', 'Carl.']);
 
   return (
     <section className='bg-[#4495D4] h-section flex items-center justify-center'>

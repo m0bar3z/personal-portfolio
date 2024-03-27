@@ -19,7 +19,7 @@ export default function Root({ children }: { children: React.ReactNode }) {
     <html lang='en'>
       <body className={`${heebo.className} font-sans m-0 p-0`}>
         <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
