@@ -11,7 +11,7 @@ const Hero: FC = () => {
   const { typedText, phase, selectedText } = useTypingAnimation(['a Fullstack dev', 'Ali.']);
 
   return (
-    <section className='bg-[#4495D4] section-height flex items-center justify-center'>
+    <section id='hello' className='bg-[#4495D4] section-height flex items-center justify-center'>
       <div className='h-2/5 w-full m-32'>
         <h1
           className={cn('responsive-header mb-16 text-center', {
