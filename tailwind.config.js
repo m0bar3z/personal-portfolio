@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      height: {
-        section: 'calc(100vh - 44px)',
-      },
+      // minHeight: {
+      //   section: 'calc(100vh - 44px)',
+      // },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

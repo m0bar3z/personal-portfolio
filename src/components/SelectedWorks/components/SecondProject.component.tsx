@@ -1,3 +1,5 @@
+'use client'
+
 import { type FC, memo, useMemo, useState } from 'react';
 import Image from 'next/image';
 import HoverText from '@/components/ui/HoverText.component';

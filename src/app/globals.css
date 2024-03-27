@@ -33,6 +33,10 @@
     animation: blink 1s step-start infinite;
   }
 
+  .section-height {
+    @apply min-h-[100vh]
+  }
+
   @keyframes blink {
     50% {
       opacity: 0;
