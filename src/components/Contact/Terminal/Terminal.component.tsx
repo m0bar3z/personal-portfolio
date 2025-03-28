@@ -12,7 +12,7 @@ const Terminal: FC = () => {
     email: <Email />,
     copy: (value: string) => {
       if (value === 'email') {
-        navigator.clipboard.writeText('amobarez00@gmail.com');
+        navigator.clipboard.writeText('mrmzdev@gmail.com');
         return (
           <CommandContainer>
             <span className='ml-4'>email copied!</span>
